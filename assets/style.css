@@ -88,9 +88,55 @@ header img {
 .conversion-container {
     width: 550px;
     height: 300px;
+
     margin: 40px 0 0 30%;
     border-style: solid;
     border-color: rgb(163, 163, 163);
     border-width: 1px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+
+}
+
+.conversion-container input {
+    height: 45px;
+    width: 90px;
+    font-size: 35px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.result {
+    height: 45px;
+    width: 90px;
+    font-size: 35px;
+    margin: 0;
+}
+
+.equal {
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+
+.input-container {
+    margin: 50px 50px 0 50px;
+}
+
+input.submit-btn {
+    width: 145px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Passion One', cursive;
+    color: #FFFFFF;
+    background-color: #02364e;
+    border-radius: 5px;
 }
