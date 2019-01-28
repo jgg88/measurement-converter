@@ -118,7 +118,12 @@ header img {
     height: 45px;
     width: 90px;
     font-size: 35px;
+    font-family: 'Cabin', sans-serif;
     margin: 0;
+}
+
+.number-input {
+    font-family: 'Cabin', sans-serif;
 }
 
 .equal {
@@ -139,4 +144,8 @@ input.submit-btn {
     color: #FFFFFF;
     background-color: #02364e;
     border-radius: 5px;
+}
+
+input.submit-btn:disabled {
+    background-color: #697b83;
 }

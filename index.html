@@ -2,7 +2,7 @@
 <html>
     <head>
             <link rel="stylesheet" href="./assets/style.css">
-            <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Passion+One|Wire+One" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Cabin|Passion+One|Wire+One" rel="stylesheet">
     </head>
     <body>
         <header>
@@ -19,13 +19,13 @@
         </div>
 
         <div class="conversion-container">
-
+            <!-- LENGTH CONVERTER -->
             <form class="form">
                 <div class="input-container">
-                    <input type="text" placeholder="?">
+                    <input type="text" placeholder="?" class="number-input">
                     <br/>
-                    <select required>
-                        <option value="centimeters">Select length</option>
+                    <select required class="dropdown-a">
+                        <option value="" disabled selected>Select length</option>
                         <option value="centimeters">Centimeters</option>
                         <option value="inches">Inches</option>
                         <option value="feet">Feet</option>
@@ -40,8 +40,8 @@
                 <div class="input-container">
                     <p class="result">?</p>
                     <br/>
-                    <select required>
-                        <option value="centimeters">Select length</option>
+                    <select required class="dropdown-b">
+                        <option value="" disabled selected>Select length</option>
                         <option value="centimeters">Centimeters</option>
                         <option value="inches">Inches</option>
                         <option value="feet">Feet</option>
@@ -52,7 +52,7 @@
                         <option value="yards">Yards</option>
                     </select>
                 </div>
-                <input type="submit" class="submit-btn" value="Convert">
+                <input type="submit" class="submit-btn" value="Convert" disabled="disable">
             </form>
         </div>
         
